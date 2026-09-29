@@ -1,0 +1,29 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "Petshop",
+  "homepage": "https://github.com/viertelthiago-cmd/Petshop#readme",
+  "bugs": {
+    "url": "https://github.com/viertelthiago-cmd/Petshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viertelthiago-cmd/Petshop.git"
+  },
+  "license": "ISC",
+  "author": "thiago",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.4",
+    "sequelize": "^6.37.8"
+  }
+}
